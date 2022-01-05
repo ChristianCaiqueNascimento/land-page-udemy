@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Landing Page</title>
+</head>
+
+<body class="main-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>january brings us Firefox 85</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit exercitationem id dolore repudiandae earum cupiditate voluptatibus aut ea saepe illo. Facere, perspiciatis laboriosam deleniti dignissimos exercitationem soluta cupiditate repudiandae itaque.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/js.svg" alt="js">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>top 3 jobs</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi sint debitis aperiam exercitationem officiis odit corporis dolores iste magnam! Provident suscipit, a quas corporis culpa enim expedita numquam beatae.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam cum assumenda impedit iusto eaque nesciunt dolorum neque tempore, porro harum sequi, asperiores eum provident. Odio necessitatibus quam suscipit harum!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, necessitatibus earum? Doloribus velit laborum sed cupiditate dolore, quaerat provident ipsum expedita consequatur veritatis voluptatum facilis! Incidunt a soluta officiis corporis.
+            </p>
+        </div>
+    </section>
+
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-description">Os 3 Grids</h2>
+            <p class="grid-description">Breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Texto</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit accusantium cupiditate voluptatibus autem! Explicabo error reiciendis suscipit dicta unde nihil odio tempore aut? Assumenda perferendis commodi optio nemo ex? Magnam!
+                    </p>
+                </article>
+                <article>
+                    <h3>Texto</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iure non repudiandae molestiae iste, neque, adipisci rem ipsum magni nulla alias? Dolore, blanditiis hic. Tenetur eos eaque illum dolorem necessitatibus.
+                    </p>
+                </article>
+                <article>
+                    <h3>Texto</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iure non repudiandae molestiae iste, neque, adipisci rem ipsum magni nulla alias? Dolore, blanditiis hic. Tenetur eos eaque illum dolorem necessitatibus.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-description">Galeria</h2>
+            <p class="grid-description">Breve descrição</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?=2" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?=3" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?=4" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?=5" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?=6" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?=7" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section main-contact">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>january brings us Firefox 85</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit exercitationem id dolore repudiandae earum cupiditate voluptatibus aut ea saepe illo. Facere, perspiciatis laboriosam deleniti dignissimos exercitationem soluta cupiditate repudiandae itaque.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contact.svg" alt="js">
+            </div>
+        </div>
+        <div class="contact-form main-content">
+            <fieldset class="form-grid">
+                <legend>Contato</legend>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="" placeholder="nome" autocomplete="off">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="" placeholder="email" autocomplete="off">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="mensagem" autocomplete="off"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Enviar formulario</button>
+                </div>
+            </fieldset>
+        </div>
+
+    </section>
+
+    <footer class="footer white-bg">
+        <p>Feito por Christian <span class="icon">❤</span></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
